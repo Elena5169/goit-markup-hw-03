@@ -32,6 +32,9 @@ body {
 
 ul {
     list-style: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
 }
 
 .container {
@@ -46,8 +49,7 @@ ul {
 .header {
     display: flex;
     flex-direction: row;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    
     align-items: center;
     text-align: center;
 }
@@ -74,7 +76,8 @@ ul {
     line-height: 1.14;
     list-style: none;
     text-decoration-line: none;
-   ;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .nav-link {
@@ -97,7 +100,9 @@ ul {
     margin-bottom: 0px;
     text-align: center;
 }
-
+.site-nav.list {
+    padding-left: 0px;
+}
 
 
 .site-nav li:not(:last-child) {
@@ -120,8 +125,7 @@ ul {
 }
 .contact-link {
     display: flex;
-    padding-bottom: 32px;
-    padding-top: 32px;
+   
 }
 
 .contacts .contact-link+.contact-link {
@@ -132,6 +136,8 @@ ul {
     text-decoration-line: none;
     color: var(--primary-text-color);
     line-height: 1.14;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .contact-item:hover,
@@ -266,6 +272,7 @@ header {
 
 .work {
     padding-top: 94px;
+    padding-bottom: 94px;
    
 }
 
@@ -276,7 +283,7 @@ header {
     margin-right: auto;
     margin-top: 0px;
     margin-bottom: 0px;
-    padding-bottom: 94px;
+    
     padding-left: 0px;
     padding-right: 0px;
 }
@@ -358,9 +365,11 @@ header {
 
 
 
-footer {
+.ftr {
     background-color: #2f303a;
-    height: 251px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
 }
 
 
@@ -397,10 +406,7 @@ footer {
     color: #2196F3
 }
 
-.footer {
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
+
 .contacts-footer .contact-item {
     font-weight: 400;
     font-size: 14px;
@@ -441,7 +447,10 @@ footer .contact-item:focus {
 
 
 
-
+.container.portfolio {
+    padding-top: 100px;
+    padding-bottom: 94px;
+}
 
 
 
@@ -449,7 +458,7 @@ footer .contact-item:focus {
     list-style: none;
     display: flex;
     padding-left: 0px;
-    padding-top: 94;
+   
     justify-content: center;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -487,7 +496,7 @@ footer .contact-item:focus {
     display: flex;
     flex-wrap: wrap;
     padding-left: 0px;
-    padding-bottom: 94px;
+   
     margin-bottom: 0px;
     margin-top: 56px;
 
