@@ -439,6 +439,10 @@ footer .contact-item:focus {
 .contacts-footer {
     margin-top: 0px;
 }
+.footer-link .contact-item {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
 
 
 
@@ -447,8 +451,9 @@ footer .contact-item:focus {
 
 
 
-.container.portfolio {
-    padding-top: 100px;
+
+.portfolio {
+    padding-top: 94px;
     padding-bottom: 94px;
 }
 
@@ -498,23 +503,18 @@ footer .contact-item:focus {
     padding-left: 0px;
    
     margin-bottom: 0px;
-    margin-top: 56px;
-
+    margin-top: 50px;
+    gap: 30px;
 }
+
 
 
 .product-item {
-    margin-right: 30px;
-    margin-bottom: 30px;
+   
     flex-basis: calc((100% - 60px) / 3);
 }  
    
- .product-item:nth-child(3n) {
-    margin-right: 0px;
-}
-.product-item:nth-last-child(-n+3) {
-    margin-bottom: 0px;
-}
+
     
    
     
@@ -529,7 +529,7 @@ footer .contact-item:focus {
 .product-name {
     padding: 20px 24px;
     border: 1px solid #EEEEEE;
-    border-top: 0;
+    border-top: none;
 }
 
 
